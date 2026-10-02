@@ -1,17 +1,30 @@
-SBHOIL DOMAIN PLAN
+SBHLOIL DOMAIN PLAN
 
-Primary brand/domain:
-- sbhoil.com
+Public brand:
+- SBHLOIL
 
-Burkina Faso domain:
-- sbhoil.bf
+Primary domain:
+- sbhloil.com
 
-Both domains should resolve to the same SBHOIL website.
-Recommended setup:
-- sbhoil.com = canonical website
-- sbhoil.bf = 301 redirect to https://sbhoil.com/
-- Preserve path/query on redirects where applicable.
-- Use one website deployment and one canonical SEO domain.
+Website hosting:
+- GitHub Pages
+
+DNS/security:
+- Cloudflare
+
+Target setup:
+- sbhloil.com = canonical website
+- www.sbhloil.com = supported www variant
+- Both should serve the same GitHub Pages website.
+- Use one canonical SEO domain.
 
 IMPORTANT:
-Availability/registration ownership was not confirmed by this web search. The official .bf registry is administered under ARCEP/ABDI; availability should be checked through an accredited .bf registrar before purchase.
+The domain must first be registered/controlled in the user's domain account before DNS and GitHub Pages custom-domain configuration can be completed.
+
+For GitHub Pages apex-domain configuration, GitHub documents A records to:
+- 185.199.108.153
+- 185.199.109.153
+- 185.199.110.153
+- 185.199.111.153
+
+For the www variant, GitHub documents a CNAME pointing to the account's GitHub Pages default domain.
