@@ -1,8 +1,9 @@
-SBHL WEBSITE — ENGINE OIL & LUBRICANTS
+SBHLOIL WEBSITE — ENGINE OIL & LUBRICANTS
 
-This repository contains the current SBHL website.
+This repository contains the current SBHLOIL website.
 
-Company: Société Bilal Hamiadou Linkoné (SBHL)
+Public brand: SBHLOIL
+Legal company: Société Bilal Hamiadou Linkoné (SBHL)
 Business focus: oil and lubricant import, trading and distribution
 Primary market: Burkina Faso
 Regional development: Mali and wider West Africa
@@ -25,5 +26,7 @@ Product grades, technical specifications, packaging, pricing and certifications 
 PRIVACY / SECURITY:
 Do not place passwords, API keys, access tokens, banking information, private customer information or other confidential credentials in this repository.
 
-
-Deployment: GitHub Pages enabled for public launch.
+DEPLOYMENT:
+GitHub Pages is used for public website hosting.
+Target public domain: https://sbhloil.com
+DNS/security provider: Cloudflare
