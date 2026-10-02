@@ -24,3 +24,6 @@ Product grades, technical specifications, packaging, pricing and certifications 
 
 PRIVACY / SECURITY:
 Do not place passwords, API keys, access tokens, banking information, private customer information or other confidential credentials in this repository.
+
+
+Deployment: GitHub Pages enabled for public launch.
