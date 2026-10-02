@@ -1,0 +1,17 @@
+SBHOIL DOMAIN PLAN
+
+Primary brand/domain:
+- sbhoil.com
+
+Burkina Faso domain:
+- sbhoil.bf
+
+Both domains should resolve to the same SBHOIL website.
+Recommended setup:
+- sbhoil.com = canonical website
+- sbhoil.bf = 301 redirect to https://sbhoil.com/
+- Preserve path/query on redirects where applicable.
+- Use one website deployment and one canonical SEO domain.
+
+IMPORTANT:
+Availability/registration ownership was not confirmed by this web search. The official .bf registry is administered under ARCEP/ABDI; availability should be checked through an accredited .bf registrar before purchase.
