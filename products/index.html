@@ -1,18 +1,136 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SBHLOIL | Products</title><link rel="stylesheet" href="../assets/detail.css"></head><body>
-<header class="detail-header"><a href="../index.html" aria-label="SBHLOIL home"><svg class="sbhl-logo" viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="110" rx="8" fill="#fff"/><g transform="translate(12 10)"><path d="M40 4C20 23 8 43 8 59c0 20 14 31 32 31s32-11 32-31c0-13-10-31-32-55z" fill="none" stroke="#145a9c" stroke-width="8"/><path d="M41 40c-9 11-15 19-15 27 0 9 6 15 15 15s15-6 15-15c0-7-5-15-15-27z" fill="#b90000"/><text x="88" y="57" font-family="Arial" font-size="48" font-weight="900" fill="#145a9c">SBHLOIL</text><text x="90" y="80" font-family="Arial" font-size="9" font-weight="700" fill="#333">SOCIÉTÉ BILAL HAMIADOU LINKONÉ</text></g></svg></a><nav class="detail-nav"><a href="../index.html#products">Products</a><a href="../index.html#services">Services</a><a href="../index.html#contact">Contact</a></nav></header>
-<section class="detail-hero"><div class="detail-hero-content"><div class="eyebrow">SBHLOIL / PRODUCT PORTFOLIO</div><h1>Lubricants for work that moves.</h1><p>Explore SBHLOIL's core lubricant categories for automotive, transport, fleet, industrial, mining and construction applications. Exact brands, grades, pack sizes and SKUs are confirmed against supplier availability and customer requirements.</p></div></section>
-<section class="detail-gallery">
-  <div class="detail-gallery-copy"><div class="eyebrow">GAZPROMNEFT × SBHLOIL</div><h2>Official distributor presentation</h2><p>The visual identity shown here is part of SBHLOIL's commercial presentation in Ouagadougou, Burkina Faso. Product availability, grades and pack sizes are confirmed for each customer inquiry.</p></div>
-  <img src="../assets/official-distributor.webp" alt="SBHLOIL official Gazpromneft distributor presentation">
-  <img src="../assets/sbhl-gazpromneft-brand.webp" alt="SBHLOIL and Gazpromneft brand identity">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SBHLOIL | Products & Lubricant Categories</title>
+<link rel="stylesheet" href="../assets/detail.css">
+<style>
+.category-nav{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:0 0 60px}
+.category-nav a{background:#fff;border:1px solid #d7d7d2;padding:22px 18px;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;transition:.2s}
+.category-nav a:hover{border-color:#145a9c;transform:translateY(-2px)}
+.product-section{padding:42px 0 52px;border-top:1px solid #d0d0cb;scroll-margin-top:25px}
+.product-section:first-of-type{border-top:0}
+.product-section h3{font-size:clamp(30px,3.2vw,46px);margin:0 0 18px;color:#101214}
+.product-section .number{color:#145a9c;font-size:12px;letter-spacing:.15em;font-weight:800;text-transform:uppercase;margin-bottom:10px}
+.product-section p{max-width:850px}
+.product-columns{display:grid;grid-template-columns:1fr 1fr;gap:45px;margin-top:22px}
+.product-columns h4{font-size:14px;text-transform:uppercase;letter-spacing:.1em;margin:0 0 10px;color:#145a9c}
+.product-columns ul{margin:0;padding-left:22px}
+.product-columns li{margin-bottom:8px}
+.category-back{display:inline-block;margin-top:18px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#145a9c}
+@media(max-width:800px){.category-nav{grid-template-columns:1fr 1fr}.product-columns{grid-template-columns:1fr;gap:25px}}
+@media(max-width:500px){.category-nav{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="detail-header">
+<a href="../index.html" aria-label="SBHLOIL home"><svg class="sbhl-logo" viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="110" rx="8" fill="#fff"/><g transform="translate(12 10)"><path d="M40 4C20 23 8 43 8 59c0 20 14 31 32 31s32-11 32-31c0-13-10-31-32-55z" fill="none" stroke="#145a9c" stroke-width="8"/><path d="M41 40c-9 11-15 19-15 27 0 9 6 15 15 15s15-6 15-15c0-7-5-15-15-27z" fill="#b90000"/><text x="88" y="57" font-family="Arial" font-size="48" font-weight="900" fill="#145a9c">SBHLOIL</text><text x="90" y="80" font-family="Arial" font-size="9" font-weight="700" fill="#333">SOCIÉTÉ BILAL HAMIADOU LINKONÉ</text></g></svg></a>
+<nav class="detail-nav"><a href="../index.html#products">Products</a><a href="../index.html#services">Services</a><a href="../index.html#contact">Contact</a></nav>
+</header>
+
+<section class="detail-hero">
+<div class="detail-hero-content">
+<div class="eyebrow">SBHLOIL / PRODUCT PORTFOLIO</div>
+<h1>Lubricants for work that moves.</h1>
+<p>Explore SBHLOIL's core lubricant categories for automotive, transport, fleet, industrial, mining and construction applications. Click any category below for a full description. Exact brands, grades, pack sizes and SKUs are confirmed against supplier availability and customer requirements.</p>
+</div>
 </section>
+
+<section class="detail-gallery">
+<div class="detail-gallery-copy"><div class="eyebrow">GAZPROMNEFT × SBHLOIL</div><h2>Official distributor presentation</h2><p>SBHLOIL's commercial presentation is built around lubricant supply for vehicles, fleets, industrial operations, mining and construction equipment in Burkina Faso. Product availability, grades and pack sizes are confirmed for each customer inquiry.</p></div>
+<img src="../assets/official-distributor.webp" alt="SBHLOIL official Gazpromneft distributor presentation">
+<img src="../assets/sbhl-gazpromneft-brand.webp" alt="SBHLOIL and Gazpromneft brand identity">
+</section>
+
 <main class="detail-main">
-<div class="detail-grid"><div><h2>Product categories</h2><p>SBHLOIL is building a practical product portfolio around the applications that matter most to commercial customers in Burkina Faso. Each inquiry can be matched to equipment type, operating conditions, quantity and delivery needs.</p>
-<h3 id="engine-oils">01 — Engine Oils</h3><p>Lubricants for passenger vehicles, commercial vehicles and fleet applications. Product selection can be discussed by vehicle type, engine requirement, operating environment and service interval.</p>
-<h3 id="heavy-duty">02 — Heavy-Duty Lubricants</h3><p>Solutions for demanding transport, construction and heavy equipment duty cycles where reliable lubrication supply is important to ongoing operations.</p>
-<h3 id="industrial">03 — Industrial Lubricants</h3><p>Lubrication products for industrial equipment and commercial operations. SBHLOIL can discuss application, equipment requirements and supply quantities before confirming a product specification.</p>
-<h3 id="mining-construction">04 — Mining / Construction</h3><p>Supply support for equipment operating in demanding environments. Requests can cover machinery categories, usage conditions, volumes and delivery planning.</p>
-<div class="detail-actions"><a class="btn btn-primary" href="../index.html#quote">Request Product Availability</a><a class="btn btn-light" href="../index.html#contact">Contact SBHLOIL</a></div></div>
-<aside class="info-card"><svg class="mini-logo" viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="110" fill="#fff"/><text x="85" y="65" font-family="Arial" font-size="48" font-weight="900" fill="#145a9c">SBHLOIL</text></svg><h3>Need a specific oil?</h3><p>Send the equipment or vehicle information, desired quantity and delivery location. SBHLOIL can use those details to prepare a product inquiry.</p><ul><li>Application / equipment</li><li>Quantity or expected volume</li><li>Delivery location</li><li>Required timing</li></ul><a class="btn btn-primary" href="../index.html#quote">Start an Inquiry →</a></aside></div>
-<div class="fact-grid"><div class="fact"><strong>Market</strong><span>Burkina Faso first, with regional development toward Mali and West Africa.</span></div><div class="fact"><strong>Supply</strong><span>Product ranges and exact SKUs are confirmed before commercial commitment.</span></div><div class="fact"><strong>Support</strong><span>SBHLOIL can discuss product, quantity, delivery and commercial partnership requirements.</span></div></div>
-</main><div class="backbar"><span>SBHLOIL — Oil & Lubricants Distribution</span><a href="../index.html">← Back to SBHLOIL</a></div></body></html>
+<div class="category-nav" aria-label="Product categories">
+<a href="#engine-oils">01 · Engine Oils</a>
+<a href="#heavy-duty">02 · Heavy-Duty</a>
+<a href="#industrial">03 · Industrial</a>
+<a href="#mining-construction">04 · Mining / Construction</a>
+<a href="#full-range">05 · Full Product Range</a>
+</div>
+
+<div class="detail-grid">
+<div>
+<h2>Product categories</h2>
+<p>SBHLOIL organizes its portfolio around the equipment and operating environments most relevant to commercial customers. Each request can be matched to the application, equipment type, operating conditions, quantity, delivery location and required timing before a product specification is confirmed.</p>
+
+<section class="product-section" id="engine-oils">
+<div class="number">01 / Engine Oils</div>
+<h3>Engine Oils</h3>
+<p>Engine oils are designed to lubricate and protect engines during operation by helping manage friction, heat and contaminants. SBHLOIL can discuss engine-oil requirements for passenger vehicles, commercial vehicles and fleet applications and then identify the appropriate available product for the equipment.</p>
+<div class="product-columns">
+<div><h4>Typical applications</h4><ul><li>Passenger cars and light vehicles</li><li>Commercial vehicles and service vehicles</li><li>Company and transport fleets</li><li>Routine maintenance and oil-change programs</li></ul></div>
+<div><h4>Information to provide</h4><ul><li>Vehicle or equipment make and model</li><li>Engine type and required specification, if known</li><li>Number of vehicles or expected volume</li><li>Delivery location and timing</li></ul></div>
+</div>
+<a class="category-back" href="#top">↑ Back to categories</a>
+</section>
+
+<section class="product-section" id="heavy-duty">
+<div class="number">02 / Heavy-Duty Lubricants</div>
+<h3>Heavy-Duty Lubricants</h3>
+<p>Heavy-duty lubricants support equipment and vehicles operating under demanding transport, commercial and work-site conditions. SBHLOIL can help customers organize lubricant supply around trucks, buses, heavy commercial fleets and equipment where dependable recurring supply is important to operations.</p>
+<div class="product-columns">
+<div><h4>Typical applications</h4><ul><li>Heavy trucks and tractor units</li><li>Buses and passenger transport fleets</li><li>Commercial transport operations</li><li>Heavy equipment and work-site fleets</li></ul></div>
+<div><h4>Supply planning</h4><ul><li>Fleet size and consumption patterns</li><li>Operating environment and duty cycle</li><li>Required product grade or specification</li><li>Recurring delivery quantities and schedule</li></ul></div>
+</div>
+<a class="category-back" href="#top">↑ Back to categories</a>
+</section>
+
+<section class="product-section" id="industrial">
+<div class="number">03 / Industrial Lubricants</div>
+<h3>Industrial Lubricants</h3>
+<p>Industrial lubricants are used across machinery and equipment in manufacturing, power generation and other industrial operations. SBHLOIL can discuss the equipment, application and operating conditions with the customer before confirming an available lubricant and supply plan.</p>
+<div class="product-columns">
+<div><h4>Typical applications</h4><ul><li>Manufacturing equipment</li><li>Industrial machinery</li><li>Power-generation equipment</li><li>Commercial and maintenance operations</li></ul></div>
+<div><h4>Selection considerations</h4><ul><li>Equipment and component type</li><li>Operating temperature and conditions</li><li>Manufacturer or technical requirement</li><li>Required quantity and delivery frequency</li></ul></div>
+</div>
+<a class="category-back" href="#top">↑ Back to categories</a>
+</section>
+
+<section class="product-section" id="mining-construction">
+<div class="number">04 / Mining & Construction</div>
+<h3>Mining / Construction</h3>
+<p>Mining and construction equipment can operate in demanding environments with heavy workloads, dust, heat and extended operating periods. SBHLOIL's supply approach is to understand the machinery and working conditions first, then discuss the appropriate available lubricant category, quantities and delivery requirements.</p>
+<div class="product-columns">
+<div><h4>Typical applications</h4><ul><li>Mining equipment and machinery</li><li>Construction equipment</li><li>Earthmoving and site equipment</li><li>Heavy machinery fleets</li></ul></div>
+<div><h4>Planning information</h4><ul><li>Equipment type and operating environment</li><li>Fleet or machine count</li><li>Current lubricant specification, if known</li><li>Monthly or project-based volume requirements</li></ul></div>
+</div>
+<a class="category-back" href="#top">↑ Back to categories</a>
+</section>
+
+<section class="product-section" id="full-range">
+<div class="number">05 / Full Product Range</div>
+<h3>Full Product Range</h3>
+<p>The full SBHLOIL product portfolio is intended to cover lubricant requirements across automotive, transport, fleet, industrial, mining and construction applications. Because product availability, grades, pack sizes and exact SKUs can change, SBHLOIL confirms the current specification and supply availability for each customer request rather than publishing unverified SKUs.</p>
+<div class="product-columns">
+<div><h4>Customer requests can include</h4><ul><li>Specific product or lubricant category</li><li>Equipment or vehicle application</li><li>Bulk or packaged quantities</li><li>Recurring fleet or industrial supply</li></ul></div>
+<div><h4>Before confirmation</h4><ul><li>Application and equipment requirements are reviewed</li><li>Available product grade is confirmed</li><li>Quantity and delivery needs are discussed</li><li>Commercial availability is confirmed with the customer</li></ul></div>
+</div>
+<a class="category-back" href="#top">↑ Back to categories</a>
+</section>
+
+<div class="detail-actions"><a class="btn btn-primary" href="../index.html#quote">Request Product Availability</a><a class="btn btn-light" href="../index.html#contact">Contact SBHLOIL</a></div>
+</div>
+
+<aside class="info-card">
+<svg class="mini-logo" viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="110" fill="#fff"/><text x="85" y="65" font-family="Arial" font-size="48" font-weight="900" fill="#145a9c">SBHLOIL</text></svg>
+<h3>Need a specific oil?</h3>
+<p>Send the equipment or vehicle information, desired quantity and delivery location. SBHLOIL can use those details to prepare a product inquiry.</p>
+<ul><li>Application / equipment</li><li>Quantity or expected volume</li><li>Delivery location</li><li>Required timing</li></ul>
+<a class="btn btn-primary" href="../index.html#quote">Start an Inquiry →</a>
+</aside>
+</div>
+
+<div class="fact-grid">
+<div class="fact"><strong>Market</strong><span>Burkina Faso first, with regional development toward Mali and West Africa.</span></div>
+<div class="fact"><strong>Supply</strong><span>Product ranges and exact SKUs are confirmed before commercial commitment.</span></div>
+<div class="fact"><strong>Support</strong><span>SBHLOIL can discuss product, quantity, delivery and commercial partnership requirements.</span></div>
+</div>
+</main>
+
+<div class="backbar"><span>SBHLOIL — Oil & Lubricants Distribution</span><a href="../index.html#products">← Back to SBHLOIL Products</a></div>
+</body>
+</html>
