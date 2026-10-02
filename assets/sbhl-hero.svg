@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Industrial lubricant distribution scene">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17222b"/><stop offset=".55" stop-color="#0b0d0f"/><stop offset="1" stop-color="#050506"/></linearGradient>
+  <radialGradient id="glow" cx=".72" cy=".48" r=".5"><stop stop-color="#ef5b2a" stop-opacity=".5"/><stop offset=".55" stop-color="#8b2415" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#53616a"/><stop offset=".5" stop-color="#1e272d"/><stop offset="1" stop-color="#080a0c"/></linearGradient>
+  <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff7a3d"/><stop offset="1" stop-color="#b52e17"/></linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<rect width="1600" height="900" fill="url(#glow)"/>
+<g opacity=".18" stroke="#b9c2c7" stroke-width="2">
+  <path d="M0 160H1600M0 250H1600M0 340H1600M0 430H1600M0 520H1600"/>
+  <path d="M180 0L90 900M420 0L330 900M660 0L570 900M900 0L810 900M1140 0L1050 900M1380 0L1290 900"/>
+</g>
+<g transform="translate(180 210)">
+  <rect x="0" y="270" width="1030" height="280" rx="12" fill="#090b0d" stroke="#48535a" stroke-width="5"/>
+  <rect x="55" y="190" width="920" height="95" rx="8" fill="url(#steel)" stroke="#65727a" stroke-width="4"/>
+  <rect x="115" y="80" width="720" height="120" rx="10" fill="#11171b" stroke="#59666e" stroke-width="4"/>
+  <path d="M180 80V20h80v60M350 80V0h80v80M520 80V30h80v50M690 80V8h80v72" fill="none" stroke="#66747c" stroke-width="12"/>
+  <circle cx="170" cy="560" r="70" fill="#080a0b" stroke="#6a7479" stroke-width="12"/><circle cx="170" cy="560" r="25" fill="#aab1b3"/>
+  <circle cx="930" cy="560" r="70" fill="#080a0b" stroke="#6a7479" stroke-width="12"/><circle cx="930" cy="560" r="25" fill="#aab1b3"/>
+  <rect x="780" y="225" width="180" height="52" rx="6" fill="url(#orange)"/>
+  <text x="870" y="260" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" fill="#fff" letter-spacing="4">SBHL</text>
+</g>
+<g transform="translate(1040 560)">
+  <path d="M0 115h330v90H0z" fill="#171d21" stroke="#67737a" stroke-width="4"/>
+  <path d="M35 115V35h125l45 80" fill="#20282e" stroke="#67737a" stroke-width="4"/>
+  <circle cx="80" cy="205" r="35" fill="#070809" stroke="#68747b" stroke-width="7"/><circle cx="265" cy="205" r="35" fill="#070809" stroke="#68747b" stroke-width="7"/>
+  <rect x="52" y="62" width="92" height="34" fill="#ef5b2a" opacity=".9"/>
+</g>
+<path d="M0 770H1600" stroke="#ef5b2a" stroke-width="7" opacity=".8"/>
+<g opacity=".7" fill="#c7ced1" font-family="Arial,Helvetica,sans-serif" font-size="24" letter-spacing="5">
+ <text x="70" y="835">OUAGADOUGOU • BURKINA FASO</text>
+ <text x="1230" y="835">OIL / LUBRICANTS</text>
+</g>
+</svg>
