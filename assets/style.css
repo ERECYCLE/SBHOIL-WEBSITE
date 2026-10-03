@@ -23,3 +23,20 @@
   .hero-actions{padding:9px 14px}
   .hero-actions .btn{min-height:50px;font-size:9px}
 }
+
+/* --- Preserve SBHLOIL header branding over the new reference hero --- */
+.site-header .brand{visibility:visible!important;width:auto!important;overflow:visible!important;display:flex!important;flex-shrink:0!important}
+.site-header .brand .sbhl-logo{display:block!important;visibility:visible!important}
+.site-header{z-index:100}
+@media(max-width:1000px){
+  .site-header .brand{visibility:visible!important;width:auto!important}
+  .site-header .brand .sbhl-logo{width:175px!important}
+  .site-header .nav{display:none}
+  .site-header .nav.open{display:flex}
+}
+@media(max-width:520px){
+  .site-header .brand .sbhl-logo{width:170px!important}
+}
+/* Keep the reference hero clean: the original hero text/nav must not overlay it. */
+.hero.hero-reference{margin-top:72px}
+@media(min-width:1001px){.hero.hero-reference{margin-top:96px}}
