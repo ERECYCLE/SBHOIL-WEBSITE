@@ -52,3 +52,6 @@
 .hero.hero-reference .hero-media img{display:block;width:100%;height:auto;max-width:none;object-fit:contain;object-position:center top}
 @media(max-width:900px){.hero.hero-reference{margin-top:82px}.hero.hero-reference .hero-media img{width:100%;height:auto;object-fit:contain}}
 @media(max-width:600px){.hero.hero-reference{margin-top:72px}.hero.hero-reference .hero-media{height:auto}.hero.hero-reference .hero-media img{min-height:0;height:auto}}
+
+
+.commercial-screen{position:relative;background:#02080d}.commercial-screen canvas{display:block;width:100%;height:auto;aspect-ratio:16/9}.commercial-controls{position:absolute;left:18px;bottom:18px;display:flex;gap:10px}.commercial-controls button{border:1px solid rgba(255,255,255,.25);background:rgba(2,8,13,.88);color:#fff;padding:11px 15px;border-radius:6px;font-weight:800;cursor:pointer}.commercial-controls button:hover{background:#145a9c}.commercial-play{min-width:170px}.commercial-mute{min-width:125px}
