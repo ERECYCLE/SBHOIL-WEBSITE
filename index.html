@@ -41,9 +41,16 @@
 <section class="commercial section dark" id="commercial">
   <div class="section-label">01B / <span data-en="SBHLOIL COMMERCIAL" data-fr="FILM COMMERCIAL SBHLOIL">SBHLOIL COMMERCIAL</span></div>
   <div class="section-head"><h2 data-en="From container to customer." data-fr="Du conteneur au client.">From container to customer.</h2><p data-en="An original SBHLOIL motion commercial created for this website — no third-party footage or copied video." data-fr="Un film animé original SBHLOIL créé pour ce site — sans images tierces ni vidéo copiée.">An original SBHLOIL motion commercial created for this website — no third-party footage or copied video.</p></div>
-  <div class="commercial-player" aria-label="Original SBHLOIL commercial">
-    <object data="assets/sbhloil-commercial.svg" type="image/svg+xml" title="Original SBHLOIL commercial"></object>
-    <div class="commercial-badge">ORIGINAL SBHLOIL • 18 SEC</div>
+  <div class="commercial-player" aria-label="Original SBHLOIL animated commercial">
+  <div class="commercial-screen">
+    <canvas id="sbhCommercial" width="1280" height="720" aria-label="SBHLOIL animated commercial"></canvas>
+    <div class="commercial-controls">
+      <button type="button" id="commercialPlay" class="commercial-play">▶ <span data-en="PLAY COMMERCIAL" data-fr="LANCER LE FILM">PLAY COMMERCIAL</span></button>
+      <button type="button" id="commercialMute" class="commercial-mute">🔊 <span data-en="VOICE ON" data-fr="VOIX ACTIVÉE">VOICE ON</span></button>
+    </div>
+  </div>
+  <div class="commercial-badge">ORIGINAL SBHLOIL • 18 SEC • EN / FR</div>
+</div>
   </div>
   <div class="commercial-actions"><a class="btn btn-primary" href="#contact" data-en="CONTACT SBHLOIL →" data-fr="CONTACTER SBHLOIL →">CONTACT SBHLOIL →</a><a class="btn btn-ghost" href="catalog/index.html" data-en="VIEW VISUAL CATALOG →" data-fr="VOIR LE CATALOGUE VISUEL →">VIEW VISUAL CATALOG →</a></div>
 </section>
