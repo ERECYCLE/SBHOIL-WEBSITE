@@ -1,136 +1,66 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SBHLOIL | Products & Lubricant Categories</title>
-<link rel="stylesheet" href="../assets/detail.css?v=20261002-3">
-<style>
-.category-nav{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:0 0 60px}
-.category-nav a{background:#fff;border:1px solid #d7d7d2;padding:22px 18px;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;transition:.2s}
-.category-nav a:hover{border-color:#145a9c;transform:translateY(-2px)}
-.product-section{padding:42px 0 52px;border-top:1px solid #d0d0cb;scroll-margin-top:25px}
-.product-section:first-of-type{border-top:0}
-.product-section h3{font-size:clamp(30px,3.2vw,46px);margin:0 0 18px;color:#101214}
-.product-section .number{color:#145a9c;font-size:12px;letter-spacing:.15em;font-weight:800;text-transform:uppercase;margin-bottom:10px}
-.product-section p{max-width:850px}
-.product-columns{display:grid;grid-template-columns:1fr 1fr;gap:45px;margin-top:22px}
-.product-columns h4{font-size:14px;text-transform:uppercase;letter-spacing:.1em;margin:0 0 10px;color:#145a9c}
-.product-columns ul{margin:0;padding-left:22px}
-.product-columns li{margin-bottom:8px}
-.category-back{display:inline-block;margin-top:18px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#145a9c}
-@media(max-width:800px){.category-nav{grid-template-columns:1fr 1fr}.product-columns{grid-template-columns:1fr;gap:25px}}
-@media(max-width:500px){.category-nav{grid-template-columns:1fr}}
-</style>
-<style>#detailLangToggle{background:#071a2a;border:1px solid rgba(255,255,255,.3);color:#fff;padding:9px 12px;cursor:pointer;font-size:11px;font-weight:800;letter-spacing:.08em}</style><script src="../assets/detail-lang.js" defer></script></head>
-<body>
-<header class="detail-header">
-<a href="../index.html" aria-label="SBHLOIL home"><svg class="sbhl-logo" viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="110" rx="8" fill="#fff"/><g transform="translate(12 10)"><path d="M40 4C20 23 8 43 8 59c0 20 14 31 32 31s32-11 32-31c0-13-10-31-32-55z" fill="none" stroke="#145a9c" stroke-width="8"/><path d="M41 40c-9 11-15 19-15 27 0 9 6 15 15 15s15-6 15-15c0-7-5-15-15-27z" fill="#b90000"/><text x="88" y="57" font-family="Arial" font-size="48" font-weight="900" fill="#145a9c">SBHLOIL</text><text x="90" y="80" font-family="Arial" font-size="9" font-weight="700" fill="#333">SOCIÉTÉ BILAL HAMIADOU LINKONÉ</text></g></svg></a>
-<nav class="detail-nav"><a href="../index.html#products">Products</a><a href="../index.html#services">Services</a><a href="../index.html#contact">Contact</a></nav>
-</header>
-
-<section class="detail-hero">
-<div class="detail-hero-content">
-<div class="eyebrow">SBHLOIL / PRODUCT PORTFOLIO</div>
-<h1>Lubricants for work that moves.</h1>
-<p>Explore SBHLOIL's core lubricant categories for automotive, transport, fleet, industrial, mining and construction applications. Click any category below for a full description. Exact brands, grades, pack sizes and SKUs are confirmed against supplier availability and customer requirements.</p>
-</div>
-</section>
-
-<section class="detail-gallery">
-<div class="detail-gallery-copy"><div class="eyebrow">GAZPROMNEFT × SBHLOIL</div><h2>Official distributor presentation</h2><p>SBHLOIL's commercial presentation is built around lubricant supply for vehicles, fleets, industrial operations, mining and construction equipment in Burkina Faso. Product availability, grades and pack sizes are confirmed for each customer inquiry.</p></div>
-<img src="../assets/official-distributor.webp" alt="SBHLOIL official Gazpromneft distributor presentation">
-<img src="../assets/sbhl-gazpromneft-brand.webp" alt="SBHLOIL and Gazpromneft brand identity">
-</section>
-
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="SBHLOIL Gazpromneft lubricant portfolio based on the supplied 23-page catalog."><title>SBHLOIL | Gazpromneft Product Portfolio</title><link rel="stylesheet" href="../assets/detail.css?v=20261003-4"><style>
+.catalog-note{background:#071a2a;color:#fff;padding:18px 20px;margin:0 0 28px;border-left:4px solid #1598d2}.catalog-note strong{display:block;margin-bottom:5px}.catalog-nav,.catalog-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.catalog-nav{margin:0 0 34px}.catalog-nav a,.catalog-card{background:#fff;border:1px solid #d7d7d2;padding:18px}.catalog-card h4{margin:0 0 8px;color:#145a9c}.catalog-card p{margin:6px 0;font-size:14px}.catalog-section{padding:40px 0;border-top:1px solid #d0d0cb;scroll-margin-top:25px}.catalog-section h3{font-size:clamp(28px,3vw,43px);margin:0 0 12px}.catalog-section .number{color:#145a9c;font-size:12px;letter-spacing:.15em;font-weight:800;text-transform:uppercase;margin-bottom:8px}.catalog-section table{width:100%;border-collapse:collapse;background:#fff;font-size:12px}.catalog-section th,.catalog-section td{padding:9px;border:1px solid #ddd;text-align:left;vertical-align:top}.catalog-section th{background:#eef4f7}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0 35px}.stat{background:#fff;border:1px solid #d7d7d2;padding:18px}.stat strong{display:block;font-size:28px;color:#145a9c}.stat span{font-size:11px;text-transform:uppercase;letter-spacing:.07em}@media(max-width:800px){.catalog-nav,.catalog-grid,.stats{grid-template-columns:1fr}.catalog-section table{display:block;overflow-x:auto;white-space:nowrap}}
+</style></head><body>
+<header class="detail-header"><a href="../index.html" aria-label="SBHLOIL home"><svg class="sbhl-logo" viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="110" rx="8" fill="#fff"/><text x="85" y="68" font-family="Arial" font-size="48" font-weight="900" fill="#145a9c">SBHLOIL</text></svg></a><nav class="detail-nav"><a href="../index.html#products" data-en="Products" data-fr="Produits">Products</a><a href="../index.html#services" data-en="Services" data-fr="Services">Services</a><a href="../index.html#contact" data-en="Contact" data-fr="Contact">Contact</a><button id="catalogLang" type="button">FR</button></nav></header>
+<section class="detail-hero"><div class="detail-hero-content"><div class="eyebrow">SBHLOIL / GAZPROMNEFT</div><h1 data-en="A catalog-based lubricant portfolio." data-fr="Une gamme de lubrifiants basée sur le catalogue.">A catalog-based lubricant portfolio.</h1><p data-en="The supplied 23-page Gazpromneft catalog gives SBHLOIL a broader portfolio across automotive, commercial vehicles, motorcycles, transmissions, greases, coolants, engine care and hydraulic products." data-fr="Le catalogue Gazpromneft fourni de 23 pages donne à SBHLOIL une gamme plus large couvrant l’automobile, les véhicules commerciaux, les motos, les transmissions, les graisses, les liquides de refroidissement, l’entretien moteur et les produits hydrauliques.">The supplied 23-page Gazpromneft catalog gives SBHLOIL a broader portfolio across automotive, commercial vehicles, motorcycles, transmissions, greases, coolants, engine care and hydraulic products.</p></div></section>
 <main class="detail-main">
-<div class="category-nav" id="product-categories" aria-label="Product categories">
-<a href="#engine-oils">01 · Engine Oils</a>
-<a href="#heavy-duty">02 · Heavy-Duty</a>
-<a href="#industrial">03 · Industrial</a>
-<a href="#mining-construction">04 · Mining / Construction</a>
-<a href="#full-range">05 · Full Product Range</a>
-</div>
+<div class="catalog-note"><strong data-en="Catalog reference — exact product data remains SKU-specific." data-fr="Référence catalogue — les données exactes restent propres à chaque référence.">Catalog reference — exact product data remains SKU-specific.</strong><span data-en="Product names, grades, specifications, approvals, applications and packaging below are based on the supplied catalog. Current availability, exact SKU, pricing, supplier terms and regulatory requirements must be confirmed before any commercial commitment." data-fr="Les noms, grades, spécifications, homologations, applications et conditionnements ci-dessous sont basés sur le catalogue fourni. La disponibilité actuelle, la référence exacte, les prix, les conditions fournisseur et les exigences réglementaires doivent être confirmés avant tout engagement commercial.">Product names, grades, specifications, approvals, applications and packaging below are based on the supplied catalog. Current availability, exact SKU, pricing, supplier terms and regulatory requirements must be confirmed before any commercial commitment.</span></div>
+<div class="stats"><div class="stat"><strong>50,000 t</strong><span data-en="Catalog profile: lubricant products/year" data-fr="Profil catalogue : produits lubrifiants/an">Catalog profile: lubricant products/year</span></div><div class="stat"><strong>60+</strong><span data-en="Catalog profile: countries of distribution" data-fr="Profil catalogue : pays de distribution">Catalog profile: countries of distribution</span></div><div class="stat"><strong>15,000 km</strong><span data-en="Selected Premium oils, subject to prescribed intervals" data-fr="Certaines huiles Premium, selon les intervalles prescrits">Selected Premium oils, subject to prescribed intervals</span></div></div>
+<div class="catalog-nav"><a href="#light">01 · <span data-en="Passenger & Light Commercial" data-fr="Véhicules particuliers & utilitaires">Passenger & Light Commercial</span></a><a href="#heavy">02 · <span data-en="Heavy-Duty / Diesel" data-fr="Poids lourd / Diesel">Heavy-Duty / Diesel</span></a><a href="#moto">03 · <span data-en="Moto & Small Engines" data-fr="Moto & petits moteurs">Moto & Small Engines</span></a><a href="#transmission">04 · <span data-en="Transmission" data-fr="Transmission">Transmission</span></a><a href="#greases">05 · <span data-en="Greases" data-fr="Graisses">Greases</span></a><a href="#fluids">06 · <span data-en="Coolants & Engine Care" data-fr="Refroidissement & entretien moteur">Coolants & Engine Care</span></a><a href="#industrial">07 · <span data-en="Hydraulic & Industrial" data-fr="Hydraulique & industriel">Hydraulic & Industrial</span></a><a href="#technical">08 · <span data-en="Technical Guide" data-fr="Guide technique">Technical Guide</span></a></div>
 
-<div class="detail-grid">
-<div>
-<h2>Product categories</h2>
-<p>SBHLOIL organizes its portfolio around the equipment and operating environments most relevant to commercial customers. Each request can be matched to the application, equipment type, operating conditions, quantity, delivery location and required timing before a product specification is confirmed.</p>
+<section class="catalog-section" id="light"><div class="number">01 / <span data-en="Passenger & Light Commercial" data-fr="Véhicules particuliers & utilitaires">Passenger & Light Commercial</span></div><h3 data-en="Engine oils for passenger vehicles" data-fr="Huiles moteur pour véhicules particuliers">Engine oils for passenger vehicles</h3><p data-en="The catalog covers gasoline and diesel engines, turbocharged or non-turbocharged, for passenger cars, vans and light commercial vehicles." data-fr="Le catalogue couvre les moteurs essence et diesel, turbocompressés ou non, pour voitures, camionnettes et véhicules utilitaires légers.">The catalog covers gasoline and diesel engines, turbocharged or non-turbocharged, for passenger cars, vans and light commercial vehicles.</p><table><tr><th data-en="Product" data-fr="Produit">Product</th><th data-en="Grades" data-fr="Grades">Grades</th><th data-en="Specification" data-fr="Spécification">Specification</th><th data-en="Packaging" data-fr="Conditionnement">Packaging</th></tr>
+<tr><td>Gazpromneft Premium N</td><td>5W-40</td><td>API SN/CF; ACEA A3/B4; MB 229.5; VW 502 00/505 00; Renault RN 0700/0710; BMW LL-01; Porsche A40; PSA B71 2296; GM LL-B-025; AVTOVAZ</td><td>1 L, 4 L, 205 L</td></tr>
+<tr><td>Gazpromneft Premium L</td><td>5W-30, 5W-40, 10W-40, 20W-50</td><td>API SL/CF; ACEA A3/B4 for 10W-40; ACEA A3/B3 for 5W-40, 5W-30, 20W-50; AVTOVAZ</td><td>1 L, 4 L, 5 L, 20 L, 50 L, 205 L</td></tr>
+<tr><td>Gazpromneft Super</td><td>5W-40, 10W-40, 10W-30, 15W-40</td><td>API SG/CD; AVTOVAZ; ZMZ</td><td>1 L, 4 L, 5 L, 20 L, 205 L</td></tr>
+<tr><td>Gazpromneft Standard</td><td>10W-40, 15W-40, 20W-50</td><td>API SF/CC</td><td>1 L, 4 L, 5 L, 20 L, 205 L</td></tr>
+<tr><td>Gazpromneft Ecogas</td><td>10W-40, 15W-40</td><td>API SJ/CF</td><td>10W-40: 1 L, 4 L, 20 L, 205 L; 15W-40: 1 L, 4 L, 20 L</td></tr></table><p><strong data-en="Catalog note:" data-fr="Note catalogue :">Catalog note:</strong> <span data-en="Selected Premium synthetic and semi-synthetic oils are presented as capable of service up to 15,000 km when used according to the vehicle manufacturer's prescribed oil-change interval." data-fr="Certaines huiles Premium synthétiques et semi-synthétiques sont présentées comme pouvant assurer un service jusqu’à 15 000 km lorsqu’elles sont utilisées selon l’intervalle de vidange prescrit par le constructeur.">Selected Premium synthetic and semi-synthetic oils are presented as capable of service up to 15,000 km when used according to the vehicle manufacturer's prescribed oil-change interval.</span></p></section>
 
-<section class="product-section" id="engine-oils">
-<div class="number">01 / Engine Oils</div>
-<h3>Engine Oils</h3>
-<p>Engine oils are designed to lubricate and protect engines during operation by helping manage friction, heat and contaminants. SBHLOIL can discuss engine-oil requirements for passenger vehicles, commercial vehicles and fleet applications and then identify the appropriate available product for the equipment.</p>
-<div class="product-columns">
-<div><h4>Typical applications</h4><ul><li>Passenger cars and light vehicles</li><li>Commercial vehicles and service vehicles</li><li>Company and transport fleets</li><li>Routine maintenance and oil-change programs</li></ul></div>
-<div><h4>Information to provide</h4><ul><li>Vehicle or equipment make and model</li><li>Engine type and required specification, if known</li><li>Number of vehicles or expected volume</li><li>Delivery location and timing</li></ul></div>
-</div>
-<a class="category-back" href="#product-categories">↑ Back to categories</a>
-</section>
+<section class="catalog-section" id="heavy"><div class="number">02 / <span data-en="Heavy-Duty / Diesel" data-fr="Poids lourd / Diesel">Heavy-Duty / Diesel</span></div><h3 data-en="Commercial vehicle and heavy-equipment lubricants" data-fr="Lubrifiants pour véhicules commerciaux et équipements lourds">Commercial vehicle and heavy-equipment lubricants</h3><p data-en="The Diesel series is presented for trucks, buses and construction equipment, including demanding loads and broad operating temperatures." data-fr="La série Diesel est présentée pour camions, autobus et engins de construction, y compris sous charges exigeantes et sur une large plage de températures.">The Diesel series is presented for trucks, buses and construction equipment, including demanding loads and broad operating temperatures.</p><table><tr><th data-en="Product" data-fr="Produit">Product</th><th data-en="Grades" data-fr="Grades">Grades</th><th data-en="Key specification" data-fr="Spécification clé">Key specification</th><th data-en="Packaging" data-fr="Conditionnement">Packaging</th></tr>
+<tr><td>Gazpromneft Diesel Premium</td><td>5W-40, 10W-30, 10W-40, 15W-40</td><td>API CI-4/SL; ACEA E7, A3/B3; MB 228.3; MAN M3275-1; MTU Cat.2; Volvo VDS-3; Renault Trucks RLD/RLD-2; Cummins CES 20076/77/78; Caterpillar ECF-1a; KAMAZ; YAMZ</td><td>4 L, 5 L, 20 L, 30 L, 50 L, 205 L</td></tr>
+<tr><td>Gazpromneft Diesel Prioritet</td><td>10W-30, 10W-40, 15W-40</td><td>API CH-4/SL; ACEA E7, A3/B3; MB 228.3; MAN M3275-1; Volvo VDS-3; MTU Cat.2; Renault Trucks RLD/RLD-2; Cummins CES 20076; Caterpillar ECF-1a; KAMAZ; YAMZ</td><td>4 L, 5 L, 10 L, 20 L, 30 L, 50 L, 205 L</td></tr>
+<tr><td>Gazpromneft Diesel Extra</td><td>10W-40, 15W-40, 20W-50</td><td>API CF-4/CF/SG; KAMAZ; YAMZ</td><td>4 L, 5 L, 10 L, 20 L, 30 L, 50 L, 205 L</td></tr>
+<tr><td>Gazpromneft Turbo Universal</td><td>15W-40</td><td>API CD; YAMZ</td><td>4 L, 5 L, 10 L, 20 L, 30 L, 50 L, 205 L, 1000 L</td></tr>
+<tr><td>Gazpromneft Diesel Extra 40 / 50</td><td>40, 50</td><td>API CF-4/CF/SG</td><td>5 L, 20 L, 30 L, 205 L</td></tr>
+<tr><td>Gazpromneft HD 40 / 50 / 60</td><td>40, 50, 60</td><td>API CC</td><td>5–50 L and 205 L; 50 grade also 1000 L</td></tr></table></section>
 
-<section class="product-section" id="heavy-duty">
-<div class="number">02 / Heavy-Duty Lubricants</div>
-<h3>Heavy-Duty Lubricants</h3>
-<p>Heavy-duty lubricants support equipment and vehicles operating under demanding transport, commercial and work-site conditions. SBHLOIL can help customers organize lubricant supply around trucks, buses, heavy commercial fleets and equipment where dependable recurring supply is important to operations.</p>
-<div class="product-columns">
-<div><h4>Typical applications</h4><ul><li>Heavy trucks and tractor units</li><li>Buses and passenger transport fleets</li><li>Commercial transport operations</li><li>Heavy equipment and work-site fleets</li></ul></div>
-<div><h4>Supply planning</h4><ul><li>Fleet size and consumption patterns</li><li>Operating environment and duty cycle</li><li>Required product grade or specification</li><li>Recurring delivery quantities and schedule</li></ul></div>
-</div>
-<a class="category-back" href="#product-categories">↑ Back to categories</a>
-</section>
+<section class="catalog-section" id="moto"><div class="number">03 / <span data-en="Moto & Small Engines" data-fr="Moto & petits moteurs">Moto & Small Engines</span></div><h3 data-en="2-stroke and 4-stroke oils" data-fr="Huiles 2 temps et 4 temps">2-stroke and 4-stroke oils</h3><div class="catalog-grid">
+<div class="catalog-card"><h4>Gazpromneft Moto 2T</h4><p><b>JASO FB / ISO-L-EGB · 1 L</b></p><p data-en="For air-cooled 2-stroke gasoline engines in motorcycles, boats, motoblocks, chainsaws, mowers and similar equipment." data-fr="Pour moteurs essence 2 temps refroidis par air des motos, bateaux, motoculteurs, scies à chaîne, faucheuses et équipements similaires.">For air-cooled 2-stroke gasoline engines in motorcycles, boats, motoblocks, chainsaws, mowers and similar equipment.</p></div>
+<div class="catalog-card"><h4>Gazpromneft Moto 4T 20W-50</h4><p><b>API SF; JASO MA2 · 1 L</b></p><p data-en="For low-power 4-stroke gasoline engines in mopeds, scooters and motorcycles, including wet-clutch applications; catalog range -15°C to +50°C." data-fr="Pour moteurs essence 4 temps de faible puissance des cyclomoteurs, scooters et motos, y compris embrayages humides ; plage catalogue -15 °C à +50 °C.">For low-power 4-stroke gasoline engines in mopeds, scooters and motorcycles, including wet-clutch applications; catalog range -15°C to +50°C.</p></div>
+<div class="catalog-card"><h4>Gazpromneft Moto 4T 30</h4><p><b>API SG/CD · 1 L</b></p><p data-en="For low-power 4-stroke gasoline engines in lawn mowers, motor pumps, cultivators, brush cutters and garden equipment; catalog range -10°C to +35°C." data-fr="Pour moteurs essence 4 temps de faible puissance des tondeuses, motopompes, motoculteurs, débroussailleuses et équipements de jardinage ; plage catalogue -10 °C à +35 °C.">For low-power 4-stroke gasoline engines in lawn mowers, motor pumps, brush cutters and garden equipment; catalog range -10°C to +35°C.</p></div></div></section>
 
-<section class="product-section" id="industrial">
-<div class="number">03 / Industrial Lubricants</div>
-<h3>Industrial Lubricants</h3>
-<p>Industrial lubricants are used across machinery and equipment in manufacturing, power generation and other industrial operations. SBHLOIL can discuss the equipment, application and operating conditions with the customer before confirming an available lubricant and supply plan.</p>
-<div class="product-columns">
-<div><h4>Typical applications</h4><ul><li>Manufacturing equipment</li><li>Industrial machinery</li><li>Power-generation equipment</li><li>Commercial and maintenance operations</li></ul></div>
-<div><h4>Selection considerations</h4><ul><li>Equipment and component type</li><li>Operating temperature and conditions</li><li>Manufacturer or technical requirement</li><li>Required quantity and delivery frequency</li></ul></div>
-</div>
-<a class="category-back" href="#product-categories">↑ Back to categories</a>
-</section>
+<section class="catalog-section" id="transmission"><div class="number">04 / <span data-en="Transmission" data-fr="Transmission">Transmission</span></div><h3 data-en="Manual transmission oils and ATF" data-fr="Huiles de transmission manuelle et ATF">Manual transmission oils and ATF</h3><table><tr><th data-en="Product" data-fr="Produit">Product</th><th>Grade</th><th data-en="Specification / approvals" data-fr="Spécification / homologations">Specification / approvals</th><th data-en="Packaging" data-fr="Conditionnement">Packaging</th></tr>
+<tr><td>Gazpromneft Super T-3</td><td>85W-90</td><td>API GL-5; ZF TE-ML 16C/17B/19B/21A; MB 235.0; MAN 342 M1; AVTOVAZ; GAZ</td><td>1 L, 4 L, 20 L, 50 L, 205 L</td></tr>
+<tr><td>Gazpromneft GL-5</td><td>80W-90</td><td>API GL-5; ZF TE-ML 16B/17B/19B/21A; MAN 342 M1; AVTOVAZ</td><td>1 L, 4 L, 5 L, 10 L, 20 L, 50 L, 205 L</td></tr>
+<tr><td>Gazpromneft GL-4</td><td>80W-85</td><td>API GL-4; ZF TE-ML 17A; MB 235.1; MAN 341 Z1; AVTOVAZ</td><td>1 L, 4 L, 20 L, 50 L, 205 L</td></tr>
+<tr><td>Gazpromneft GL-4</td><td>80W-90</td><td>API GL-4; ZF TE-ML 16A/17A/19A; AVTOVAZ</td><td>1 L, 4 L, 5 L, 205 L</td></tr>
+<tr><td>Gazpromneft ATF DX III</td><td>ATF</td><td>DEXRON IIIG, TASA/MERCON; MB 236.1; MAN 339 V1/Z1; ZF TE-ML 04D/09/11B/14A</td><td>1 L, 4 L, 20 L, 205 L</td></tr>
+<tr><td>Gazpromneft ATF DX II</td><td>ATF</td><td>DEXRON IID</td><td>1 L, 4 L, 20 L, 205 L</td></tr></table></section>
 
-<section class="product-section" id="mining-construction">
-<div class="number">04 / Mining & Construction</div>
-<h3>Mining / Construction</h3>
-<p>Mining and construction equipment can operate in demanding environments with heavy workloads, dust, heat and extended operating periods. SBHLOIL's supply approach is to understand the machinery and working conditions first, then discuss the appropriate available lubricant category, quantities and delivery requirements.</p>
-<div class="product-columns">
-<div><h4>Typical applications</h4><ul><li>Mining equipment and machinery</li><li>Construction equipment</li><li>Earthmoving and site equipment</li><li>Heavy machinery fleets</li></ul></div>
-<div><h4>Planning information</h4><ul><li>Equipment type and operating environment</li><li>Fleet or machine count</li><li>Current lubricant specification, if known</li><li>Monthly or project-based volume requirements</li></ul></div>
-</div>
-<a class="category-back" href="#product-categories">↑ Back to categories</a>
-</section>
+<section class="catalog-section" id="greases"><div class="number">05 / <span data-en="Greases" data-fr="Graisses">Greases</span></div><h3 data-en="Greases for automotive, transport and industry" data-fr="Graisses pour l’automobile, le transport et l’industrie">Greases for automotive, transport and industry</h3><table><tr><th data-en="Product" data-fr="Produit">Product</th><th data-en="Specification" data-fr="Spécification">Specification</th><th data-en="Applications" data-fr="Applications">Applications</th><th data-en="Packaging" data-fr="Conditionnement">Packaging</th></tr>
+<tr><td>Gazpromneft EP-2</td><td>DIN 51 502 KP 2K -40</td><td data-en="Multi-purpose extreme-pressure lubrication for bearings and plain bearings; automotive, transport, public works and industry." data-fr="Lubrification multi-usage extrême pression pour roulements et paliers lisses ; automobile, transport, travaux publics et industrie.">Multi-purpose extreme-pressure lubrication for bearings and plain bearings; automotive, transport, public works and industry.</td><td>0.15, 0.35, 0.8, 18, 45 kg</td></tr>
+<tr><td>Gazpromneft EP-3</td><td>DIN 51 502 KP 3K -40</td><td data-en="Multi-purpose extreme-pressure lubrication for bearings and plain bearings." data-fr="Lubrification multi-usage extrême pression pour roulements et paliers lisses.">Multi-purpose extreme-pressure lubrication for bearings and plain bearings.</td><td>0.8, 18, 45 kg</td></tr>
+<tr><td>Gazpromneft CVJ Grease</td><td>DIN 51 502 KPF 2K -40</td><td data-en="Constant-velocity joints, vehicle components and bearings; strong water resistance." data-fr="Joints homocinétiques, composants et paliers de véhicules ; forte résistance à l’eau.">Constant-velocity joints, vehicle components and bearings; strong water resistance.</td><td>0.15, 0.35, 18, 170 kg</td></tr>
+<tr><td>Gazpromneft Lithol-24</td><td>DIN 51 502 K 3K -40</td><td data-en="Water-resistant anti-friction grease for bearings, hinges, transmissions and industrial machinery." data-fr="Graisse antifriction résistante à l’eau pour roulements, charnières, transmissions et machines industrielles.">Water-resistant anti-friction grease for bearings, hinges, transmissions and industrial machinery.</td><td>0.15, 0.35, 0.8, 18, 40, 45, 50, 170 kg</td></tr></table></section>
 
-<section class="product-section" id="full-range">
-<div class="number">05 / Full Product Range</div>
-<h3>Full Product Range</h3>
-<p>The full SBHLOIL product portfolio is intended to cover lubricant requirements across automotive, transport, fleet, industrial, mining and construction applications. Because product availability, grades, pack sizes and exact SKUs can change, SBHLOIL confirms the current specification and supply availability for each customer request rather than publishing unverified SKUs.</p>
-<div class="product-columns">
-<div><h4>Customer requests can include</h4><ul><li>Specific product or lubricant category</li><li>Equipment or vehicle application</li><li>Bulk or packaged quantities</li><li>Recurring fleet or industrial supply</li></ul></div>
-<div><h4>Before confirmation</h4><ul><li>Application and equipment requirements are reviewed</li><li>Available product grade is confirmed</li><li>Quantity and delivery needs are discussed</li><li>Commercial availability is confirmed with the customer</li></ul></div>
-</div>
-<a class="category-back" href="#product-categories">↑ Back to categories</a>
-</section>
+<section class="catalog-section" id="fluids"><div class="number">06 / <span data-en="Coolants & Engine Care" data-fr="Refroidissement & entretien moteur">Coolants & Engine Care</span></div><h3 data-en="Coolants and engine cleaning" data-fr="Liquides de refroidissement et nettoyage moteur">Coolants and engine cleaning</h3><div class="catalog-grid">
+<div class="catalog-card"><h4>Gazpromneft Antigel 40</h4><p><b>BS 6580-1992; AVTOVAZ; KAMAZ; YAMZ; GAZ; MAZ</b></p><p data-en="Ethylene-glycol coolant; catalog states service life up to 100,000 km." data-fr="Liquide de refroidissement à base d’éthylène glycol ; le catalogue indique une durée de vie jusqu’à 100 000 km.">Ethylene-glycol coolant; catalog states service life up to 100,000 km.</p><p>1 kg, 5 kg, 10 kg, 220 kg</p></div>
+<div class="catalog-card"><h4>Gazpromneft Antigel BS 40</h4><p><b>BS 6580-1992; AVTOVAZ; KAMAZ; YAMZ; GAZ; MAZ</b></p><p data-en="Ethylene-glycol coolant; catalog states service life up to 90,000 km." data-fr="Liquide de refroidissement à base d’éthylène glycol ; le catalogue indique une durée de vie jusqu’à 90 000 km.">Ethylene-glycol coolant; catalog states service life up to 90,000 km.</p><p>1 kg, 5 kg, 10 kg, 220 kg</p></div>
+<div class="catalog-card"><h4>Gazpromneft Tosol 40</h4><p><b>GOST 28084; AVTOVAZ; KAMAZ; YAMZ; GAZ; MAZ</b></p><p data-en="Ethylene-glycol coolant for year-round cooling-system protection; catalog states service life up to 80,000 km." data-fr="Liquide de refroidissement à base d’éthylène glycol pour protection toute l’année ; le catalogue indique une durée de vie jusqu’à 80 000 km.">Ethylene-glycol coolant for year-round cooling-system protection; catalog states service life up to 80,000 km.</p><p>1 kg, 5 kg, 10 kg, 220 kg</p></div>
+<div class="catalog-card"><h4>Gazpromneft Promo MP Synthetic</h4><p><b>Mineral base; AVTOVAZ</b></p><p data-en="Engine-cleaning oil for the crankcase, pump and oil circuit. The catalog describes a 20–30 minute cleaning process at idle before an oil change." data-fr="Huile de nettoyage pour carter, pompe et circuit d’huile. Le catalogue décrit un nettoyage de 20 à 30 minutes au ralenti avant la vidange.">Engine-cleaning oil for the crankcase, pump and oil circuit. The catalog describes a 20–30 minute cleaning process at idle before an oil change.</p><p>3 L, 5 L, 50 L, 205 L</p></div></div></section>
 
-<div class="detail-actions"><a class="btn btn-primary" href="../index.html#quote">Request Product Availability</a><a class="btn btn-light" href="../index.html#contact">Contact SBHLOIL</a></div>
-</div>
+<section class="catalog-section" id="industrial"><div class="number">07 / <span data-en="Hydraulic & Industrial" data-fr="Hydraulique & industriel">Hydraulic & Industrial</span></div><h3 data-en="Additional GOST/TU products listed in the catalog" data-fr="Produits GOST/TU supplémentaires listés dans le catalogue">Additional GOST/TU products listed in the catalog</h3><p data-en="The catalog's page 22 includes a wider reference portfolio. These products should be presented as available-by-inquiry until current technical documentation, exact SKU and supply availability are confirmed." data-fr="La page 22 du catalogue comprend une gamme de référence plus large. Ces produits doivent être présentés sur demande jusqu’à confirmation de la documentation technique, de la référence exacte et de la disponibilité.">The catalog's page 22 includes a wider reference portfolio. These products should be presented as available-by-inquiry until current technical documentation, exact SKU and supply availability are confirmed.</p><table><tr><th>Product</th><th data-en="Use" data-fr="Utilisation">Use</th><th data-en="Specification" data-fr="Spécification">Specification</th><th data-en="Packaging" data-fr="Conditionnement">Packaging</th></tr>
+<tr><td>M-8V</td><td data-en="Universal engine oil" data-fr="Huile moteur universelle">Universal engine oil</td><td>GOST 10541; SAE 20W-20</td><td>1, 4, 5, 20, 50, 205, 1000</td></tr>
+<tr><td>M-8G2 / M-8G2k</td><td data-en="Diesel oil for vehicles and tractors" data-fr="Huile diesel pour véhicules et tracteurs">Diesel oil for vehicles and tractors</td><td>GOST 8581-78; SAE 20</td><td>4, 5, 20, 50, 205; selected 1000</td></tr>
+<tr><td>M-10G2 / M-10G2k</td><td data-en="Diesel oil for vehicles and tractors" data-fr="Huile diesel pour véhicules et tracteurs">Diesel oil for vehicles and tractors</td><td>SAE 30; GOST 8581-78; API CC for M-10G2k</td><td>4, 5, 10, 20, 30, 50, 205; selected 1000</td></tr>
+<tr><td>M-10DM</td><td data-en="Diesel oil for vehicles and tractors" data-fr="Huile diesel pour véhicules et tracteurs">Diesel oil for vehicles and tractors</td><td>GOST 8581-78</td><td>4, 5, 10, 20, 30, 50, 205, 1000</td></tr>
+<tr><td>VMGZ / VMGZ PAO</td><td data-en="Multigrade hydraulic oil" data-fr="Huile hydraulique multigrade">Multigrade hydraulic oil</td><td>STO 84035624-066-2012</td><td>4, 20, 205 / 20, 205</td></tr>
+<tr><td>MG-68V</td><td data-en="Hydraulic oil" data-fr="Huile hydraulique">Hydraulic oil</td><td>STO 84035624-067-2012</td><td>4, 20, 205</td></tr>
+<tr><td>MGE-46V</td><td data-en="Hydrostatic transmission oil" data-fr="Huile pour transmissions hydrostatiques">Hydrostatic transmission oil</td><td>TU 38.001347-2000</td><td>4, 20, 205</td></tr>
+<tr><td>Mark A / Mark P</td><td data-en="Torque converter/automatic transmission; power steering/hydraulic lifts" data-fr="Convertisseurs de couple/transmission automatique ; direction assistée/ascenseurs hydrauliques">Torque converter/automatic transmission; power steering/hydraulic lifts</td><td>STO 84035624-065-2012</td><td>10, 205</td></tr>
+<tr><td>TSp-15K / GL-1 90, 140</td><td data-en="Transmission oils" data-fr="Huiles de transmission">Transmission oils</td><td>API GL-3 / GL-1</td><td>4, 10, 205 / 20, 205, 1000</td></tr></table></section>
 
-<aside class="info-card">
-<svg class="mini-logo" viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg"><rect width="360" height="110" fill="#fff"/><text x="85" y="65" font-family="Arial" font-size="48" font-weight="900" fill="#145a9c">SBHLOIL</text></svg>
-<h3>Need a specific oil?</h3>
-<p>Send the equipment or vehicle information, desired quantity and delivery location. SBHLOIL can use those details to prepare a product inquiry.</p>
-<ul><li>Application / equipment</li><li>Quantity or expected volume</li><li>Delivery location</li><li>Required timing</li></ul>
-<a class="btn btn-primary" href="../index.html#quote">Start an Inquiry →</a>
-</aside>
-</div>
+<section class="catalog-section" id="technical"><div class="number">08 / <span data-en="Technical Guide" data-fr="Guide technique">Technical Guide</span></div><h3 data-en="SAE viscosity and API performance" data-fr="Viscosité SAE et performance API">SAE viscosity and API performance</h3><p data-en="The catalog explains SAE viscosity-temperature grading: W grades relate to low-temperature performance, while hot grades such as 20, 30, 40, 50 and 60 describe higher-temperature viscosity behavior. Multigrades such as 5W-40 combine cold- and hot-temperature characteristics." data-fr="Le catalogue explique la classification SAE viscosité-température : les grades W concernent les performances à basse température, tandis que les grades à chaud comme 20, 30, 40, 50 et 60 décrivent le comportement de viscosité à température élevée. Les multigrades comme 5W-40 combinent les caractéristiques à froid et à chaud.">The catalog explains SAE viscosity-temperature grading: W grades relate to low-temperature performance, while hot grades such as 20, 30, 40, 50 and 60 describe higher-temperature viscosity behavior. Multigrades such as 5W-40 combine cold- and hot-temperature characteristics.</p><p data-en="The catalog also explains API performance categories, including S for gasoline-service applications and C for commercial diesel applications; slash-separated categories indicate dual gasoline/diesel positioning." data-fr="Le catalogue explique aussi les catégories de performance API, notamment S pour les applications essence et C pour les applications diesel commerciales ; les catégories séparées par une barre oblique indiquent une utilisation essence/diesel.">The catalog also explains API performance categories, including S for gasoline-service applications and C for commercial diesel applications; slash-separated categories indicate dual gasoline/diesel positioning.</p><div class="catalog-note"><strong data-en="SBHLOIL selection rule" data-fr="Règle de sélection SBHLOIL">SBHLOIL selection rule</strong><span data-en="Match the exact vehicle/equipment requirement to the exact product specification. The website does not replace the vehicle or equipment manufacturer's recommendation." data-fr="Faire correspondre le besoin exact du véhicule ou de l’équipement à la spécification exacte du produit. Le site ne remplace pas la recommandation du constructeur.">Match the exact vehicle/equipment requirement to the exact product specification. The website does not replace the vehicle or equipment manufacturer's recommendation.</span></div></section>
 
-<div class="fact-grid">
-<div class="fact"><strong>Market</strong><span>Burkina Faso first, with regional development toward Mali and West Africa.</span></div>
-<div class="fact"><strong>Supply</strong><span>Product ranges and exact SKUs are confirmed before commercial commitment.</span></div>
-<div class="fact"><strong>Support</strong><span>SBHLOIL can discuss product, quantity, delivery and commercial partnership requirements.</span></div>
-</div>
-</main>
-
-<div class="backbar"><span>SBHLOIL — Oil & Lubricants Distribution</span><a href="../index.html#products">← Back to SBHLOIL Products</a></div>
-</body>
-</html>
+<div class="detail-actions"><a class="btn btn-primary" href="../index.html#quote" data-en="REQUEST PRODUCT AVAILABILITY →" data-fr="DEMANDER LA DISPONIBILITÉ →">REQUEST PRODUCT AVAILABILITY →</a><a class="btn btn-light" href="../index.html#contact" data-en="CONTACT SBHLOIL" data-fr="CONTACTER SBHLOIL">CONTACT SBHLOIL</a></div></main>
+<div class="backbar"><span>SBHLOIL — Oil & Lubricants Distribution</span><a href="../index.html#products" data-en="← Back to SBHLOIL Products" data-fr="← Retour aux produits SBHLOIL">← Back to SBHLOIL Products</a></div>
+<script>(()=>{let lang=localStorage.getItem('sbhl-lang')||'en';const t=document.getElementById('catalogLang');const apply=()=>{document.documentElement.lang=lang;document.querySelectorAll('[data-en][data-fr]').forEach(e=>e.textContent=lang==='fr'?e.dataset.fr:e.dataset.en);if(t)t.textContent=lang==='fr'?'EN':'FR'};t?.addEventListener('click',()=>{lang=lang==='en'?'fr':'en';localStorage.setItem('sbhl-lang',lang);apply()});apply()})();</script></body></html>
