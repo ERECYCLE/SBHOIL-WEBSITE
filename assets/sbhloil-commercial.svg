@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">SBHLOIL original commercial motion graphic</title>
+<desc id="desc">An original animated commercial showing containers, ocean shipment, arrival in Burkina Faso, distribution, automotive, trucks, mining and construction, ending with SBHLOIL contact information.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#07141b"/><stop offset="1" stop-color="#0b2630"/></linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#07364a"/><stop offset="1" stop-color="#0b536b"/></linearGradient>
+  <style>
+    .scene{opacity:0;animation:show 18s linear infinite}
+    .s1{animation-delay:0s}.s2{animation-delay:3s}.s3{animation-delay:6s}.s4{animation-delay:9s}.s5{animation-delay:12s}.s6{animation-delay:15s}
+    @keyframes show{0%,16%{opacity:1}16.5%,100%{opacity:0}}
+    .move{animation:move 3s ease-in-out infinite}.float{animation:float 2s ease-in-out infinite}
+    @keyframes move{0%{transform:translateX(-120px)}50%{transform:translateX(80px)}100%{transform:translateX(300px)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    .title{font:700 48px Arial,sans-serif;fill:#f8fafc;letter-spacing:1px}.sub{font:400 25px Arial,sans-serif;fill:#cbd5df}.gold{font:700 34px Arial,sans-serif;fill:#e1aa2d}.small{font:700 20px Arial,sans-serif;fill:#cbd5df}.contact{font:700 34px Arial,sans-serif;fill:#f8fafc}
+  </style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect y="0" width="1280" height="9" fill="#145a9c"/>
+<g class="scene s1">
+ <text x="60" y="70" class="title">SBHLOIL</text><text x="62" y="112" class="sub">From source to service — a complete supply journey.</text>
+ <text x="420" y="230" class="gold">LOAD → MOVE → DELIVER</text>
+ <g class="move"><g transform="translate(120 330)"><rect width="250" height="150" rx="6" fill="#23485d" stroke="#145a9c" stroke-width="6"/><path d="M45 0v150M100 0v150M155 0v150M210 0v150" stroke="#37677b" stroke-width="3"/><text x="28" y="70" class="title" font-size="30">SBHLOIL</text><text x="45" y="108" class="small">QUALITY SUPPLY</text></g></g>
+</g>
+<g class="scene s2">
+ <text x="60" y="70" class="title">GLOBAL MOVEMENT</text><text x="62" y="112" class="sub">Containers prepared for the journey to Burkina Faso.</text>
+ <rect y="470" width="1280" height="250" fill="url(#sea)"/>
+ <g class="float" transform="translate(340 365)"><path d="M0 105h530l65 70H70z" fill="#2d3942" stroke="#fff" stroke-width="3"/><rect x="90" y="20" width="330" height="85" fill="#475661"/><g fill="#23485d" stroke="#145a9c" stroke-width="4"><rect x="100" y="-105" width="95" height="95"/><rect x="205" y="-105" width="95" height="95"/><rect x="310" y="-105" width="95" height="95"/></g><g fill="#e1aa2d" font-family="Arial" font-weight="700" font-size="24"><text x="125" y="-55">SBH</text><text x="230" y="-55">SBH</text><text x="335" y="-55">SBH</text></g></g>
+</g>
+<g class="scene s3">
+ <text x="60" y="70" class="title">ARRIVAL &amp; DISTRIBUTION</text><text x="62" y="112" class="sub">Receiving, checking and preparing products in Ouagadougou.</text>
+ <g transform="translate(110 405)"><rect width="290" height="100" fill="#145a9c" stroke="#fff" stroke-width="3"/><rect x="290" y="30" width="95" height="70" fill="#4d5963" stroke="#fff" stroke-width="3"/><polygon points="305,35 370,35 385,70 305,70" fill="#83aebf"/><circle cx="65" cy="112" r="28" fill="#171a1d" stroke="#fff" stroke-width="3"/><circle cx="320" cy="112" r="28" fill="#171a1d" stroke="#fff" stroke-width="3"/><text x="55" y="62" class="small" fill="#fff">SBHLOIL</text></g>
+ <g fill="#23485d" stroke="#145a9c" stroke-width="5"><rect x="700" y="300" width="180" height="115"/><rect x="920" y="300" width="180" height="115"/><rect x="700" y="455" width="180" height="115"/><rect x="920" y="455" width="180" height="115"/></g>
+ <g class="small"><text x="750" y="365">RESELLER</text><text x="970" y="365">GARAGE</text><text x="760" y="520">FLEET</text><text x="970" y="520">INDUSTRY</text></g>
+</g>
+<g class="scene s4">
+ <text x="60" y="70" class="title">CUSTOMER SUPPLY</text><text x="62" y="112" class="sub">Structured delivery for commercial customers and partners.</text>
+ <g transform="translate(90 410)"><rect width="300" height="100" fill="#145a9c"/><rect x="300" y="30" width="95" height="70" fill="#4d5963"/><circle cx="65" cy="112" r="28" fill="#171a1d"/><circle cx="325" cy="112" r="28" fill="#171a1d"/></g>
+ <g class="float"><circle cx="650" cy="360" r="80" fill="#185f48" stroke="#fff" stroke-width="5"/><text x="594" y="370" class="small">AUTOMOTIVE</text></g>
+ <g class="float" style="animation-delay:.3s"><circle cx="850" cy="360" r="80" fill="#9a2525" stroke="#fff" stroke-width="5"/><text x="820" y="370" class="small">TRUCKS</text></g>
+ <g class="float" style="animation-delay:.6s"><circle cx="1050" cy="360" r="80" fill="#b07b20" stroke="#fff" stroke-width="5"/><text x="1015" y="370" class="small">MINING</text></g>
+</g>
+<g class="scene s5">
+ <text x="60" y="70" class="title">BUILT FOR WORK</text><text x="62" y="112" class="sub">Applications across automotive, transport, mining and construction.</text>
+ <g transform="translate(80 410)"><rect width="300" height="85" rx="25" fill="#b90000" stroke="#fff" stroke-width="3"/><polygon points="70,410 130,355 250,355 295,410" fill="#b90000" transform="translate(0 -355)"/><circle cx="70" cy="105" r="28" fill="#171a1d"/><circle cx="255" cy="105" r="28" fill="#171a1d"/></g>
+ <g transform="translate(500 410)"><rect width="310" height="85" fill="#145a9c" stroke="#fff" stroke-width="3"/><rect x="310" y="28" width="85" height="57" fill="#4d5963" stroke="#fff" stroke-width="3"/><circle cx="70" cy="105" r="28" fill="#171a1d"/><circle cx="340" cy="105" r="28" fill="#171a1d"/></g>
+ <g transform="translate(920 360)"><rect x="0" y="75" width="190" height="70" fill="#e1aa2d" stroke="#fff" stroke-width="3"/><path d="M120 75L225 0l65 65-30 20-50-55-45 45" fill="none" stroke="#e1aa2d" stroke-width="25"/><rect x="-5" y="140" width="210" height="35" fill="#333b40"/></g>
+ <text x="115" y="600" class="small">CARS</text><text x="625" y="600" class="small">TRUCKS</text><text x="955" y="600" class="small">MINING / CONSTRUCTION</text>
+</g>
+<g class="scene s6">
+ <text x="60" y="80" class="title">SBHLOIL</text><text x="60" y="130" class="sub">Connect supply. Keep equipment moving.</text>
+ <line x1="60" y1="190" x2="1220" y2="190" stroke="#145a9c" stroke-width="5"/>
+ <text x="60" y="270" class="contact">Société Bilal Hamiadou Linkoné</text>
+ <text x="60" y="335" class="gold">Oil &amp; Lubricants Distribution</text>
+ <text x="60" y="420" class="contact">Ouagadougou, Burkina Faso</text>
+ <text x="60" y="475" class="contact">+226 07 56 54 54</text>
+ <text x="60" y="530" class="contact">SBHLOIL.COM</text>
+ <text x="60" y="610" class="small">Abdoul Linkone • Founder &amp; CEO</text>
+</g>
+<rect x="60" y="650" width="1160" height="6" fill="#3a4650"/><rect x="60" y="650" width="1160" height="6" fill="#b90000"><animate attributeName="width" from="0" to="1160" dur="18s" repeatCount="indefinite"/></rect>
+</svg>
