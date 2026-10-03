@@ -20,16 +20,16 @@
 </g></svg></a>
   <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
   <nav class="nav" aria-label="Primary navigation">
-    <a href="#about" data-en="About" data-fr="À propos">About</a>
-    <a href="#products" data-en="Products" data-fr="Produits">Products</a>
-    <a href="#services" data-en="Services" data-fr="Services">Services</a>
-    <a href="#industries" data-en="Industries" data-fr="Secteurs">Industries</a>
-    <a href="#distribution" data-en="Distribution" data-fr="Distribution">Distribution</a>
-    <a href="#resources" data-en="Resources" data-fr="Ressources">Resources</a>
-    <a href="#contact" data-en="Contact" data-fr="Contact">Contact</a>
-    <button class="lang" id="langToggle" type="button">FR</button>
-    <a class="nav-cta" href="#quote" data-en="Request a Quote" data-fr="Demander un devis">Request a Quote</a>
-  </nav>
+  <div class="nav-group"><button class="nav-parent" type="button" aria-expanded="false"><span data-en="About" data-fr="À propos">About</span><span class="nav-plus">+</span></button><div class="subnav"><a href="#about" data-en="Company Overview" data-fr="Présentation de l'entreprise">Company Overview</a><a href="documents/company-profile.html" data-en="Company Profile" data-fr="Profil de l'entreprise">Company Profile</a><a href="#official-distributor" data-en="Brand Portfolio" data-fr="Portefeuille de marques">Brand Portfolio</a></div></div>
+  <div class="nav-group"><button class="nav-parent" type="button" aria-expanded="false"><span data-en="Products" data-fr="Produits">Products</span><span class="nav-plus">+</span></button><div class="subnav"><a href="#products" data-en="Product Families" data-fr="Familles de produits">Product Families</a><a href="catalog/index.html" data-en="Visual Catalog" data-fr="Catalogue visuel">Visual Catalog</a><a href="products/index.html" data-en="Full Technical Catalog" data-fr="Catalogue technique complet">Full Technical Catalog</a></div></div>
+  <div class="nav-group"><button class="nav-parent" type="button" aria-expanded="false"><span data-en="Services" data-fr="Services">Services</span><span class="nav-plus">+</span></button><div class="subnav"><a href="#services" data-en="Services Overview" data-fr="Aperçu des services">Services Overview</a><a href="services/index.html#product-supply" data-en="Product Supply" data-fr="Approvisionnement">Product Supply</a><a href="services/index.html#distribution" data-en="Distribution" data-fr="Distribution">Distribution</a><a href="services/index.html#fleet-supply" data-en="Fleet Supply" data-fr="Approvisionnement des flottes">Fleet Supply</a></div></div>
+  <div class="nav-group"><button class="nav-parent" type="button" aria-expanded="false"><span data-en="Industries" data-fr="Secteurs">Industries</span><span class="nav-plus">+</span></button><div class="subnav"><a href="#industries" data-en="Industries Overview" data-fr="Aperçu des secteurs">Industries Overview</a><a href="industries/index.html#automotive" data-en="Automotive" data-fr="Automobile">Automotive</a><a href="industries/index.html#transport" data-en="Transport & Fleet" data-fr="Transport & Flottes">Transport & Fleet</a><a href="industries/index.html#mining" data-en="Mining" data-fr="Mines">Mining</a><a href="industries/index.html#construction" data-en="Construction" data-fr="Construction">Construction</a><a href="industries/index.html#industrial" data-en="Industrial" data-fr="Industriel">Industrial</a></div></div>
+  <div class="nav-group"><button class="nav-parent" type="button" aria-expanded="false"><span data-en="Distribution" data-fr="Distribution">Distribution</span><span class="nav-plus">+</span></button><div class="subnav"><a href="#distribution" data-en="Distribution Overview" data-fr="Aperçu de la distribution">Distribution Overview</a><a href="distribution/index.html#supply" data-en="Supply" data-fr="Approvisionnement">Supply</a><a href="distribution/index.html#load" data-en="Loading & Documents" data-fr="Chargement & Documents">Loading & Documents</a><a href="distribution/index.html#ship" data-en="Shipping" data-fr="Expédition">Shipping</a><a href="distribution/index.html#deliver" data-en="Customer Delivery" data-fr="Livraison client">Customer Delivery</a></div></div>
+  <div class="nav-group"><button class="nav-parent" type="button" aria-expanded="false"><span data-en="Resources" data-fr="Ressources">Resources</span><span class="nav-plus">+</span></button><div class="subnav"><a href="#resources" data-en="Resources Overview" data-fr="Aperçu des ressources">Resources Overview</a><a href="catalog/index.html" data-en="Visual Catalog" data-fr="Catalogue visuel">Visual Catalog</a><a href="products/index.html#technical" data-en="Technical Guide" data-fr="Guide technique">Technical Guide</a><a href="documents/funding-summary.html" data-en="Funding Summary" data-fr="Résumé du financement">Funding Summary</a></div></div>
+  <div class="nav-group nav-single"><a class="nav-parent nav-parent-link" href="#contact" data-en="Contact" data-fr="Contact">Contact</a></div>
+  <button class="lang" id="langToggle" type="button">FR</button>
+  <a class="nav-cta" href="#quote" data-en="Request a Quote" data-fr="Demander un devis">Request a Quote</a>
+</nav>
 </header>
 
 <main>
@@ -166,5 +166,16 @@
 <text x="90" y="80" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="700" fill="#333" letter-spacing="1.2">SOCIÉTÉ BILAL HAMIADOU LINKONÉ</text>
 </g></svg></div><p data-en="© 2026 Société Bilal Hamiadou Linkoné (SBHL). All rights reserved." data-fr="© 2026 Société Bilal Hamiadou Linkoné (SBHL). Tous droits réservés.">© 2026 Société Bilal Hamiadou Linkoné (SBHL). All rights reserved.</p><a href="#top" data-en="BACK TO TOP ↑" data-fr="RETOUR EN HAUT ↑">BACK TO TOP ↑</a></footer>
 <script src="assets/app.js?v=20261002-2"></script>
+<script>
+document.querySelectorAll('.nav-parent:not(.nav-parent-link)').forEach(btn=>{
+ btn.addEventListener('click',()=>{
+  const group=btn.closest('.nav-group'), open=group.classList.contains('open');
+  document.querySelectorAll('.nav-group.open').forEach(g=>{g.classList.remove('open');g.querySelector('.nav-parent')?.setAttribute('aria-expanded','false')});
+  if(!open){group.classList.add('open');btn.setAttribute('aria-expanded','true')}
+ });
+});
+document.addEventListener('click',e=>{if(!e.target.closest('.nav-group')) document.querySelectorAll('.nav-group.open').forEach(g=>{g.classList.remove('open');g.querySelector('.nav-parent')?.setAttribute('aria-expanded','false')})});
+document.querySelectorAll('.subnav a').forEach(a=>a.addEventListener('click',()=>a.closest('.nav-group')?.classList.remove('open')));
+</script>
 </body>
 </html>
